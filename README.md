@@ -31,24 +31,24 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Data structures
 
+* arrayvec
 * phf
 * typemap
-* arrayvec
 
 # File/directory stuff
 
-* tempdir
 * seek_bufread
+* tempdir
 
 
 # Graphics
 
 ## Low-level
 
-* gfx
-* vulkano
 * ash
+* gfx
 * glium
+* vulkano
 
 ## Higher-level
 
@@ -56,10 +56,10 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 ## Windowing/context creation
 
-* glutin
-* winit
 * glfw
+* glutin
 * sdl2
+* winit
 
 ## Font stuff
 
@@ -75,8 +75,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Kitchen sink
 
-* odds
 * monster
+* odds
 
 # Languages
 
@@ -98,6 +98,7 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 ## Numerical traits/generics
 
 * num
+* try_from
 
 ## Vector algebra/computer graphics/physics
 
@@ -149,9 +150,9 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Reference/lifetime mongling
 
-* rental
-* owning_ref
 * lazy_static
+* owning_ref
+* rental
 * thread_local
 
 # Serialization
@@ -162,8 +163,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 # Text/string/templating stuff
 
 * handlebars
-* symtern
 * regex
+* symtern
 
 # Thread management
 
@@ -171,8 +172,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Time
 
-* time
 * chrono
+* time
 
 # Web stuff
 
@@ -183,8 +184,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 ## Web frameworks
 
-* pencil
 * iron
+* pencil
 
 ## Misc
 
