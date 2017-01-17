@@ -32,6 +32,7 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 # Data structures
 
 * arrayvec
+* ndarray
 * phf
 * typemap
 
