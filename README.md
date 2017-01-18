@@ -2,8 +2,8 @@ A list of useful and relatively mature crates for various tasks, for you need a 
 of doing stuff.
 
 Basically, if there's an obvious answer to a common "how do I do X" question, or if someone might ask
-"Why isn't X in std?", X should go here.  This shouldn't become `awesome-rust`, we have awesome-rust
-for that.
+"Why isn't X in std?", X should go here.  This shouldn't become [awesome-rust](https://github.com/kud1ing/awesome-rust), we
+have awesome-rust for that.
 
 Should we limit the number of crates here?  Ideally there would be a small number of crates for each
 category.  The focus is also on fairly fundamental tasks... hmm.
@@ -87,6 +87,7 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 ## Other
 
+* dyon
 * gluon
 
 # Logging
