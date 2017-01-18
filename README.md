@@ -92,7 +92,11 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 # Logging
 
 * env_logger
+* fern
 * log
+* simplelog
+* slog
+* ulog
 
 # Math
 
