@@ -91,9 +91,12 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Logging
 
+* emit
 * env_logger
 * fern
 * log
+* loggerv
+* mowl
 * simplelog
 * slog
 * ulog
