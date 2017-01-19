@@ -205,6 +205,7 @@ request.
 * handlebars
 * regex
 * symtern
+* tera
 
 # Text/terminal user interface
 
