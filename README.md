@@ -163,7 +163,15 @@ Other stuff:
 
 * toml
 
+## Parser combinators
+
+* combine
+* nom
+
 ## Parser generators
+
+* lalrpop
+* peg
 
 # Platform-specific interfacing
 
