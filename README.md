@@ -2,18 +2,34 @@ A list of useful and relatively mature crates for various tasks, for you need a 
 of doing stuff.
 
 Basically, if there's an obvious answer to a common "how do I do X" question, or if someone might ask
-"Why isn't X in std?", X should go here.  This shouldn't become [awesome-rust](https://github.com/kud1ing/awesome-rust), we
-have awesome-rust for that.
+"Why isn't X in std?", X should go here.  This shouldn't become [awesome-rust](https://github.com/kud1ing/awesome-rust), we have awesome-rust for that.
 
-Should we limit the number of crates here?  Ideally there would be a small number of crates for each
-category.  The focus is also on fairly fundamental tasks... hmm.
+Rules:
+
+* At most two crates that do more or less the same thing
+* If there's no halfway decent docs and readme, leave it out
+* If it's not a go-to solution for the task it's doing, leave it out
+* If you're not sure, leave it out
 
 To do: Short descriptions, links to crates, note whether or not it is pure rust, better tables...
+
+If you have a suggestion, amendment, flames, or other communication, open an issue.  Or better, a pull
+request.
+
+# Async I/O
+
+* futures-rs
+* mio
 
 # Bit mongling/endianness stuff
 
 * bitflags
 * byteorder
+
+# Command line parsing
+
+* argparse
+* clap
 
 # Compression
 
@@ -21,13 +37,15 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 * flate2
 * zip
 
-# Control structures(?)
+# Control flow abstraction
 
 * itertools
 
 # Cryptography
 
 * openssl
+* ring (instead of openssl?)
+* crypto-hashes
 
 # Data structures
 
@@ -35,6 +53,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 * ndarray
 * phf
 * typemap
+* petgraph
+* smallvec
 
 # File/directory stuff
 
@@ -46,10 +66,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 ## Low-level
 
-* ash
 * gfx
 * glium
-* vulkano
 
 ## Higher-level
 
@@ -60,9 +78,8 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 * glfw
 * glutin
 * sdl2
-* winit
 
-## Font stuff
+## Font loading/rendering
 
 * rusttype
 
@@ -104,9 +121,10 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 # Math
 
+* num (traits, complex/bigint/rational number types, iterators, all sorts of nice stuff)
+
 ## Numerical traits/generics
 
-* num
 * try_from
 
 ## Vector algebra/computer graphics/physics
@@ -153,6 +171,10 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 
 * num_cpus
 
+# Parallelism
+
+* threadpool
+
 # Random numbers
 
 * rand
@@ -169,15 +191,25 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 * rustc_serialize
 * serde
 
+# Sound
+
+## Decoding
+
+## Playing
+
+* alto
+* ears
+
 # Text/string/templating stuff
 
 * handlebars
 * regex
 * symtern
 
-# Thread management
+# Text/terminal user interface
 
-* threadpool
+* rustyline
+* termion
 
 # Time
 
