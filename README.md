@@ -11,10 +11,10 @@ Rules:
 * If it's not a go-to solution for the task it's doing, leave it out
 * If you're not sure, leave it out
 
-To do: Short descriptions, links to crates, note whether or not it is pure rust, better tables...
-
 If you have a suggestion, amendment, flames, or other communication, open an issue.  Or better, a pull
 request.
+
+To do: Short descriptions, links to crates, note whether or not it is pure rust, better tables...
 
 # Async I/O
 
@@ -109,15 +109,22 @@ request.
 
 # Logging
 
+* log
+* slog
+
+log backends (needs sorting through)
+
 * emit
 * env_logger
 * fern
+* ulog
+
+Other stuff:
+
 * log
 * loggerv
 * mowl
 * simplelog
-* slog
-* ulog
 
 # Math
 
