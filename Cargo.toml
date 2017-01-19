@@ -4,4 +4,5 @@ version = "0.1.0"
 authors = ["Simon Heath <icefoxen@gmail.com>"]
 
 [dependencies]
-crates-index = "0.5"
+#crates-index = "0.5"
+cargo = "0.15"
