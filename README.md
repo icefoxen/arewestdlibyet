@@ -14,7 +14,8 @@ Rules:
 If you have a suggestion, amendment, flames, or other communication, open an issue.  Or better, a pull
 request.
 
-To do: Short descriptions, links to crates, note whether or not it is pure rust, better tables...
+To do: Short descriptions, links to crates, note whether or not it is pure rust,
+better tables, link to arewe*yet...
 
 # Async I/O
 
