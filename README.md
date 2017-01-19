@@ -174,6 +174,7 @@ To do: Short descriptions, links to crates, note whether or not it is pure rust,
 * handlebars
 * regex
 * symtern
+* tera
 
 # Thread management
 
