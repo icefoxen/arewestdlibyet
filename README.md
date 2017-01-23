@@ -4,6 +4,8 @@ of doing stuff.
 Basically, if there's an obvious answer to a common "how do I do X" question, or if someone might ask
 "Why isn't X in std?", X should go here.  This shouldn't become [awesome-rust](https://github.com/kud1ing/awesome-rust), we have awesome-rust for that.
 
+Another excellent source is [stdx](https://github.com/brson/stdx), check it out.
+
 Rules:
 
 * At most two crates that do more or less the same thing
