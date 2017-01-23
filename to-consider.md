@@ -5,6 +5,8 @@
 * wait-timeout (process management) 1/2017
 * rayon (parallelism) 1/2017
 * check out stdx
+* check out more of awesome-rust (https://rust.libhunt.com/)
+* pest vs peg
 
 
 Stuff to find:

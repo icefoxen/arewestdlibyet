@@ -57,6 +57,10 @@ better tables, link to arewe*yet...
 * petgraph
 * smallvec
 
+# Databases
+
+* diesel
+
 # File/directory stuff
 
 * seek_bufread
@@ -73,6 +77,7 @@ better tables, link to arewe*yet...
 ## Higher-level
 
 * conrod?
+* imgui-rs?
 
 ## Windowing/context creation
 
@@ -101,7 +106,7 @@ better tables, link to arewe*yet...
 
 ## Lua
 
-* hlua
+* lua
 
 ## Other
 
@@ -171,7 +176,6 @@ Other stuff:
 ## Parser generators
 
 * lalrpop
-* peg
 
 # Platform-specific interfacing
 

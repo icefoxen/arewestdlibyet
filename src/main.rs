@@ -10,15 +10,17 @@ fn main() {
     let mut registry = cargo::core::registry::PackageRegistry::new(&config).unwrap();
 
     let source_id = cargo::core::source::SourceId::crates_io(&config).unwrap();
-    //let target_package_id = cargo::core::package_id::PackageId::new("ggez", "*", &source_id).unwrap();
-    //let package_set = registry.get(&[target_package_id]);
-    
-    let dependency = cargo::core::dependency::Dependency::parse_no_deprecated("ggez", None, &source_id).unwrap();
-    let summaries = registry.query(&dependency).unwrap();
-
-    for s in summaries.iter() {
-        println!("Package summary: {:#?}", s);
+    let target_package_id = cargo::core::package_id::PackageId::new("ggez", "0.2.0", &source_id).unwrap();
+    let package_set = registry.get(&[target_package_id.clone()]);
+    for p in package_set.package_ids() {
+        //let package = package_set.get(p).unwrap();
+        //println!("Package: {:?}", package);
+        println!("fjdklsafj");
     }
-    //let r = summaries.len();
-    //println!("Hello, world: {:?}", r);
+    
+    //let dependency = cargo::core::dependency::Dependency::parse_no_deprecated("ggez", None, &source_id).unwrap();
+    //let summaries = registry.query(&dependency).unwrap();
+    //for s in summaries.iter() {
+    //    println!("Package summary: {:#?}", s);
+    //}
 }
