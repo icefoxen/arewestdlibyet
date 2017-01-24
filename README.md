@@ -23,6 +23,7 @@ better tables, link to arewe*yet...
 
 * futures-rs
 * mio
+* tokio
 
 # Bit mongling/endianness stuff
 
@@ -31,8 +32,8 @@ better tables, link to arewe*yet...
 
 # Command line parsing
 
-* argparse
 * clap
+* docopt
 
 # Compression
 
@@ -46,14 +47,14 @@ better tables, link to arewe*yet...
 
 # Cryptography
 
-* openssl
-* ring (instead of openssl?)
-* crypto-hashes
+* crypto
+* ring
 
 # Data structures
 
 * arrayvec
 * ndarray
+* vec_map
 * phf
 * typemap
 * petgraph
@@ -196,6 +197,8 @@ Other stuff:
 # Parallelism
 
 * threadpool
+* thread-scoped
+* rayon
 
 # Random numbers
 
@@ -244,7 +247,10 @@ Other stuff:
 ## HTTP libraries
 
 * hyper
-* solicit
+
+### Client
+
+* reqwest
 
 ## Web frameworks
 
@@ -256,4 +262,7 @@ Other stuff:
 * cookie
 * formdata
 * idna
-
+* url
+* mime
+* uuid
+* 
